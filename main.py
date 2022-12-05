@@ -13,7 +13,8 @@ print(favorite_animals)
 for animal in favorite_animals:print(f"I Love {animal}")
 
 numbers = [1, 2, 3, 4, 5]
-numbers_sum = [0]
-for num in numbers :numbers_sum.append(num)
+numbers_sum = 0
 
+for num in numbers :
+ numbers_sum += num
 print(numbers_sum)
